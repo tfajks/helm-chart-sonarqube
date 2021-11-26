@@ -23,6 +23,8 @@ annotations:
   artifacthub.io/changes: |
     - kind: added
       description: "added possibility to define the ingress pathType"
+    - kind: added
+      description: "added possibility to define ressources for the change admin password hook"
   artifacthub.io/containsSecurityUpdates: "false"
   artifacthub.io/images: |
     - name: sonarqube-app

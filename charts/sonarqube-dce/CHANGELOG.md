@@ -3,6 +3,7 @@ All changes to this chart will be documented in this file.
 
 ## [0.2.1]
 * added possibility to define the ingress pathType
+* added possibility to define ressources for the change admin password hook
 
 ## [0.2.0]
 * updated SonarQube to 9.2.0

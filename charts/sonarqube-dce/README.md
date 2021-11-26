@@ -293,6 +293,10 @@ The following table lists the configurable parameters of the Sonarqube chart and
 | `extraConfig.configmaps` | A list of `ConfigMap`s (which must contain key/value pairs) which may be loaded into the Scanner as environment variables | `[]` |
 | `account.adminPassword` | Custom new admin password | `"admin"` |
 | `account.currentAdminPassword` | Current admin password | `"admin"` |
+| `account.resources.requests.memory` | Change admin password hook memory request | `128Mi` |
+| `account.resources.requests.cpu` | Change admin password hook cpu request | `100m` |
+| `account.resources.limits.memory` | Change admin password hook memory limits | `128Mi` |
+| `account.resources.limits.cpu` | Change admin password hook cpu limits | `100m` |
 | `curlContainerImage` | Curl container image | `"curlimages/curl:latest"` |
 | `adminJobAnnotations` | Custom annotations for admin hook Job | `{}` |
 | `terminationGracePeriodSeconds` | Configuration of `terminationGracePeriodSeconds` | `60` |
