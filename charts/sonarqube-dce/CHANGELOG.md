@@ -1,6 +1,9 @@
 # SonarQube Chart Changelog
 All changes to this chart will be documented in this file.
 
+## [0.2.2]
+* added optional deployment of NetworkPolicies
+
 ## [0.2.1]
 * added possibility to define the ingress pathType
 * added possibility to define ressources for the change admin password hook
