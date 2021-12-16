@@ -59,13 +59,13 @@ service:
 
 # also install the nginx ingress helm chart
 nginx:
-  enabled: false
+  enabled: true
 
 ingress:
-  enabled: false
+  enabled: true
   # Used to create an Ingress record.
   hosts:
-    - name: sonarqube.your-org.com
+    - name: sonarqube.nbtfajks.com
       # Different clouds or configurations might need /* as the default path
       path: /
       # For additional control over serviceName and servicePort
